@@ -95,7 +95,7 @@ public class HierarchyTest extends GLGame {
         
         @Override
         public void update(float deltaTime) {
-//            sun.update(deltaTime);
+            sun.update(deltaTime);
         }
 
         @Override
