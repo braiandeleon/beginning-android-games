@@ -24,7 +24,7 @@ public class GLBasicsStarter extends ListActivity {
         String testName = tests[position];
         try {
             Class clazz = Class
-                    .forName("com.badlogic.androidgames.gl." + testName);
+                    .forName("com.badlogic.androidgames.glbasics." + testName);
             Intent intent = new Intent(this, clazz);
             startActivity(intent);
         } catch (ClassNotFoundException e) {
